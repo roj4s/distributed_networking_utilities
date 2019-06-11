@@ -1,7 +1,7 @@
 import zmq
 import time
 from multiprocessing import Process, Manager
-from zmq_exchange import recv_array
+from distributed_networking_utilities.zmq_exchange import recv_array
 
 class MultiProcessArrayRecv:
 
